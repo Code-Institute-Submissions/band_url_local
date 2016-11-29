@@ -1,1 +1,1 @@
-web: gunicorn band_url_local_project.wsgi.application
+web: gunicorn band_url_local_project.wsgi:application
